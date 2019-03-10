@@ -13,13 +13,17 @@ Dark green: #28b485
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Lato",sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    /*font-size: 16px;*/
     line-height: 1.7;
     color: #777;
-    padding: 30px;
+    padding: 3rem;
 }
 
 .header {
@@ -39,12 +43,12 @@ body {
 
 .logo-box {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
 }
 
 .text-box {
@@ -60,14 +64,14 @@ body {
     text-transform: uppercase;
 
     backface-visibility: hidden;
-    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
 }
 
 .heading-primary-main {
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 48px;
+    letter-spacing: 4.8rem;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
@@ -80,9 +84,9 @@ body {
 
 .heading-primary-sub {
     display: block;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
-    letter-spacing: 16.4px;
+    letter-spacing: 1.65rem;
 
     animation: moveInRight 1s ease-out;
 }
@@ -90,7 +94,7 @@ body {
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-100px) rotate(-60deg);
+        transform: translateX(-10rem) rotate(-60deg);
     }
 
     60% {
@@ -98,7 +102,7 @@ body {
     }
 
     80% {
-        transform: translateX(10px);
+        transform: translateX(1rem);
     }
     
     100% {
@@ -110,11 +114,11 @@ body {
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(10rem);
     } 
 
     80% {
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
     }
     
     100% {
@@ -123,19 +127,34 @@ body {
     }
 }
 
+@keyframes moveUp {
+    0% {
+        opacity: 0;
+        transform: translateY(8.5rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .btn:link,
-.btn.visited {
+.btn.visited,
+.btn {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 150px;
+    border-radius: 10rem;
     transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
 }
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 .btn:active {
@@ -145,5 +164,33 @@ body {
 .btn-white {
     background-color: #fff;
     color: #777;
+}
 
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0px;
+    left:0;
+    z-index: -1;
+
+    transition: all .4s;
+    animation: moveInUp 1.5s ease-in;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveUp .5s ease-in .75s;
+    animation-fill-mode: backwards;
 }
