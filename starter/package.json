@@ -1,0 +1,19 @@
+{
+  "name": "naturos",
+  "version": "1.0.0",
+  "description": "Fictional travel agency for natours.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-chmod": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-scss-combine": "^1.0.0"
+  },
+  "dependencies": {}
+}
