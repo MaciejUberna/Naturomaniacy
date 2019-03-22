@@ -9,6 +9,8 @@
         position: absolute;
         z-index: 10;
         transition: all .2s;
+        // padding of the border
+        outline-offset: 1.5rem;
 
         &--p1 {
             left:0;
@@ -26,9 +28,16 @@
         }
 
         &:hover {
-            transform: scale(1.05);
+            //box outline
+            outline: 1.5rem solid $color-primary;
+            transform: scale(1.05) translateY(-.5rem);
             box-shadow: 0 3rem 4rem rgba($color-black,.2);
             z-index: 20;
         }
+    }
+
+    //composition:hover composition__photo:not(:hover)
+    &:hover &__photo:not(:hover){
+        transform: scale(.9);
     }
 }
