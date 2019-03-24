@@ -15,6 +15,7 @@
     background-size: cover;
     
     transform: skewY(-7deg);
+    margin-top: -11rem;
 
     //Only direct children of .section-features
     & > * {
