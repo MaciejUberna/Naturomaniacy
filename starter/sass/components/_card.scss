@@ -5,25 +5,33 @@
     height: 50rem;
 
     &__side {
-        background-color: orangered;
         color: white;
         font-size: 2rem;
 
         height: 50rem;
-        transition: all .8s;
+        transition: all .8s ease;
         position: absolute;
         top:0;
         left:0;
         width: 100%;
         backface-visibility: hidden;
+        border-radius: 3px;
+        box-shadow: 0 3rem 4rem rgba($color-black,.4);
 
         &--front {
-            background-color: orangered;
+            background-color: $color-black;
         }
 
         &--back {
-            background-color: green;
             transform: rotateY(180deg);
+
+            &-1 {
+                background-image: linear-gradient(to right bottom,$color-tertiary-light,$color-tertiary-dark);
+            }
+
+            &-2 {
+
+            }
         }
     }
 
