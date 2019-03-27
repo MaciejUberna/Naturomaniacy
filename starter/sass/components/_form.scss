@@ -32,6 +32,21 @@ width: 75%;
     }
 
     &__label {
-
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 2rem;
+        margin-top: .7rem;
+        display: block;
+        opacity: 1;
+        transition: all 0.3s;
     }
+
+    // If there are some objects between input and label we use ~ selector instead of +
+    &__input:placeholder-shown + &__label {
+        // we cannot animate the visibility thats why we set opacity also
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+
 }
