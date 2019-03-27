@@ -2,7 +2,8 @@ var gulp = require('gulp'),
 sass = require('gulp-sass'),
 combine = require('gulp-scss-combine'),
 concat = require('gulp-concat'),
-chmod = require('gulp-chmod');
+chmod = require('gulp-chmod'),
+autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('default', function(done) { 
     console.log("This is default gulp task.");
@@ -15,6 +16,7 @@ function checkHTML(){
 
 // Define tasks after requiring dependencies
 function style() {
+
   // Where should gulp look for the sass files?
   // My .sass files are stored in the styles folder
   // (If you want to use scss files, simply look for *.scss files instead)
@@ -30,6 +32,9 @@ function style() {
           .on("error", sass.logError)
 
           .pipe(concat('style.css'))
+
+          // -webkit- and so on
+          .pipe(autoprefixer({browsers: ['last 4 versions'],cascade: false}))
 
           // What is the destination for the compiled file?
           .pipe(gulp.dest("css"))

@@ -10,8 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-chmod": "^2.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-scss-combine": "^1.0.0"
   },
