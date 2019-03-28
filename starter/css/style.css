@@ -308,7 +308,7 @@ body {
     font-size: 4rem;
     font-weight: 300; }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -318,7 +318,9 @@ body {
   -o-transition: all .2s;
   transition: all .2s;
   position: relative;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer; }
 
 .btn:hover {
   -webkit-transform: translateY(-3px);
@@ -332,7 +334,8 @@ body {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
 
-.btn:active {
+.btn:active, .btn:focus {
+  outline: none;
   -webkit-transform: translateY(-1px);
   -ms-transform: translateY(-1px);
   transform: translateY(-1px);
@@ -628,8 +631,8 @@ body {
     opacity: 1; }
   .form__submit-group {
     position: absolute;
-    left: 0;
-    top: 135%; }
+    left: -1rem;
+    top: 128%; }
 
 .row {
   max-width: 114rem;

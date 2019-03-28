@@ -1,4 +1,6 @@
 .btn {
+    //&, will translate it to <button>
+    &,
     &:link,
     &:visited {
         text-transform: uppercase;
@@ -9,9 +11,14 @@
         transition: all .2s;
         position: relative;
         font-size: 1.6rem;
+
+        //Change for submit <button>
+        border: none;
+        cursor: pointer;
     }
     
-    &:hover {
+    &:hover
+    {
         transform: translateY(-3px);
         box-shadow: 0 1rem 2rem rgba($color-black,.2);
 
@@ -21,7 +28,10 @@
         }
     }
     
-    &:active {
+    // :focus is for the <Button> "outline: none;"
+    &:active,
+    &:focus {
+        outline: none;
         transform: translateY(-1px);
         box-shadow: 0 .5rem 1rem rgba($color-black,.2);
     }
