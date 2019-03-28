@@ -320,11 +320,45 @@
                             </div>
 
                             <div class="form__group">
-                                <input type="text" class="form__input" placeholder="Full name" id="name" required>
-                                <label for="name" class="form__label">Full name</label>
+                                <input pattern="([A-ZŁ]{1})([a-ząśćżźłóęń]{2,})([\s]+)([A-ZĄŚĆŻŹŁÓĘŃ]{1})([a-ząśćżźłóęń]{2,})" type="text"
+                                title = "Podej imię i nazwisko oba zaczynające się z wielkich liter przedzielone spacją i bez cyfr."
+                                class="form__input" placeholder="Imię i nazwisko" id="name" name="fullName" required>
+                                <label for="name" class="form__label">Imię i nazwisko</label>
+                            </div>
 
-                                <input type="email" class="form__input" placeholder="Email" id="email" required>
-                                <label for="email" class="form__label">Email address</label>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Email" id="email" name="email" required>
+                                <label for="email" class="form__label">Email</label>
+                            </div>
+
+                            <div class="form__group">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="smallGroup" value="smallGroup" name="groupSize">
+                                    <label for="smallGroup" class="form__radio-label">
+                                        <span class="form__radio-button">
+
+                                        </span>
+                                        Mała grupa wycieczkowa
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form__group">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="largeGroup" value="largeGroup" name="groupSize">
+                                    <label for="largeGroup" class="form__radio-label">
+                                        <span class="form__radio-button">
+                                        
+                                        </span>
+                                        Duża grupa wycieczkowa
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form__group">
+                                <div class="form__submit-group">
+                                    <input class="form__submit-button" type="submit" value="Dalej &rarr;">
+                                </div>
                             </div>
                         </form>
                     </div>
