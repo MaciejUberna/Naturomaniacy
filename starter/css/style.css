@@ -407,8 +407,8 @@ body {
   position: relative; }
   .composition__photo {
     width: 55%;
-    -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
     z-index: 10;
