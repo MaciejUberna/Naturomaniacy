@@ -58,7 +58,12 @@ position: relative;
     }
 
     &__radio-input {
-        display: none;
+        position: absolute;
+        opacity: 0;
+        margin-left: 1.1rem;
+        margin-top: .3rem;
+        //below is commented because this will hide the message that none of the radio buttons must be selected
+        //display: none;
     }
 
     &__radio-label {
