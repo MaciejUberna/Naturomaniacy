@@ -152,12 +152,9 @@
         }
     }
 
-    //Front side styling
+    //Back side styling
     &__cta {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        @include centerObject;
         width: 90%;
         text-align: center;
     }
