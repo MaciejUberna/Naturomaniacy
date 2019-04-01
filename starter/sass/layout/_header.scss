@@ -19,14 +19,14 @@
     }
 
     &__logo {
-        height: 16rem;
+        height: 3.5rem;
     }
     
     &__text-box {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 50%;
-        transform: translate(-40%,-50%);
+        transform: translate(-50%,-50%);
         text-align: center;
     }
 }

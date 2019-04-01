@@ -1,8 +1,12 @@
+'use strict';
+
 var gulp = require('gulp'),
 sass = require('gulp-sass'),
 combine = require('gulp-scss-combine'),
 concat = require('gulp-concat'),
 chmod = require('gulp-chmod'),
+debug = require('gulp-debug'),
+wait = require('gulp-wait'),
 autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('default', function(done) { 
@@ -22,19 +26,20 @@ function style() {
   // (If you want to use scss files, simply look for *.scss files instead)
   return (
       gulp
-          .src("sass/*.scss")
-
-          .pipe(combine())
+          .src("sass/main.scss")
+          .pipe(wait(200))
+          //.pipe(combine())
           .pipe(chmod(0o755))
 
           // Use sass with the files found, and log any errors
-          .pipe(sass())
+          .pipe( sass({errLogToConsole: true }) )
           .on("error", sass.logError)
+          //.pipe(debug())
 
           .pipe(concat('style.css'))
 
           // -webkit- and so on
-          .pipe(autoprefixer({browsers: ['last 4 versions'],cascade: false}))
+          .pipe(autoprefixer({browsers: ['last 5 versions'],cascade: false}))
 
           // What is the destination for the compiled file?
           .pipe(gulp.dest("css"))

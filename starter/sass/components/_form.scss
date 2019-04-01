@@ -29,7 +29,7 @@ position: relative;
         }
 
         &::-webkit-input-placeholder {
-            color: $color-grey-dark-1;
+            color: $color-black;
         }
     }
 
@@ -44,7 +44,7 @@ position: relative;
     }
 
     // If there are some objects between input and label we use ~ selector instead of +
-    &__input:placeholder-shown + &__label {
+    &__input:placeholder-shown + &__label { 
         // we cannot animate the visibility thats why we set opacity also
         opacity: 0;
         visibility: hidden;
