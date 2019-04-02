@@ -29,7 +29,7 @@ function style() {
           .src("sass/main.scss")
           .pipe(wait(200))
           //.pipe(combine())
-          .pipe(chmod(0o755))
+          //.pipe(chmod(0o755))
 
           // Use sass with the files found, and log any errors
           .pipe( sass({errLogToConsole: true }) )
@@ -39,7 +39,7 @@ function style() {
           .pipe(concat('style.css'))
 
           // -webkit- and so on
-          .pipe(autoprefixer({browsers: ['last 5 versions'],cascade: false}))
+          .pipe(autoprefixer({browsers: ['last 6 versions'],cascade: false}))
 
           // What is the destination for the compiled file?
           .pipe(gulp.dest("css"))
