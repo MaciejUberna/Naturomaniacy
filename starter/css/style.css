@@ -131,10 +131,10 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#7fd570), to(#28b485));
-  background-image: -webkit-linear-gradient(left, #7fd570, #28b485);
-  background-image: -o-linear-gradient(left, #7fd570, #28b485);
-  background-image: linear-gradient(to right, #7fd570, #28b485);
+  background-image: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+  background-image: -webkit-linear-gradient(left, #7ed56f, #28b485);
+  background-image: -o-linear-gradient(left, #7ed56f, #28b485);
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
@@ -209,10 +209,10 @@ body {
         background-image: -o-linear-gradient(left top, #2998ff, #5643fa);
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
       .card__side--back-2 {
-        background-image: -webkit-gradient(linear, left top, right bottom, from(#7fd570), to(#28b485));
-        background-image: -webkit-linear-gradient(left top, #7fd570, #28b485);
-        background-image: -o-linear-gradient(left top, #7fd570, #28b485);
-        background-image: linear-gradient(to right bottom, #7fd570, #28b485); }
+        background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
+        background-image: -webkit-linear-gradient(left top, #7ed56f, #28b485);
+        background-image: -o-linear-gradient(left top, #7ed56f, #28b485);
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
       .card__side--back-3 {
         background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730));
         background-image: -webkit-linear-gradient(left top, #ffb900, #ff7730);
@@ -238,10 +238,10 @@ body {
       background-image: -o-linear-gradient(left top, #2998ff, #5643fa), url(../img/nat-5.jpg);
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-5.jpg); }
     .card__picture--2 {
-      background-image: -webkit-gradient(linear, left top, right bottom, from(#7fd570), to(#28b485)), url(../img/nat-6.jpg);
-      background-image: -webkit-linear-gradient(left top, #7fd570, #28b485), url(../img/nat-6.jpg);
-      background-image: -o-linear-gradient(left top, #7fd570, #28b485), url(../img/nat-6.jpg);
-      background-image: linear-gradient(to right bottom, #7fd570, #28b485), url(../img/nat-6.jpg); }
+      background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url(../img/nat-6.jpg);
+      background-image: -webkit-linear-gradient(left top, #7ed56f, #28b485), url(../img/nat-6.jpg);
+      background-image: -o-linear-gradient(left top, #7ed56f, #28b485), url(../img/nat-6.jpg);
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-6.jpg); }
     .card__picture--3 {
       background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../img/nat-7.jpg);
       background-image: -webkit-linear-gradient(left top, #ffb900, #ff7730), url(../img/nat-7.jpg);
@@ -267,10 +267,10 @@ body {
       background-image: -o-linear-gradient(left top, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .card__heading-span--2 {
-      background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(127, 213, 112, 0.85)), to(rgba(40, 180, 133, 0.85)));
-      background-image: -webkit-linear-gradient(left top, rgba(127, 213, 112, 0.85), rgba(40, 180, 133, 0.85));
-      background-image: -o-linear-gradient(left top, rgba(127, 213, 112, 0.85), rgba(40, 180, 133, 0.85));
-      background-image: linear-gradient(to right bottom, rgba(127, 213, 112, 0.85), rgba(40, 180, 133, 0.85)); }
+      background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.85)), to(rgba(40, 180, 133, 0.85)));
+      background-image: -webkit-linear-gradient(left top, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+      background-image: -o-linear-gradient(left top, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
     .card__heading-span--3 {
       background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 185, 0, 0.85)), to(rgba(255, 119, 48, 0.85)));
       background-image: -webkit-linear-gradient(left top, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
@@ -455,10 +455,10 @@ body {
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: -webkit-gradient(linear, left top, right top, from(#7fd570), to(#28b485));
-    background-image: -webkit-linear-gradient(left, #7fd570, #28b485);
-    background-image: -o-linear-gradient(left, #7fd570, #28b485);
-    background-image: linear-gradient(to right, #7fd570, #28b485);
+    background-image: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+    background-image: -webkit-linear-gradient(left, #7ed56f, #28b485);
+    background-image: -o-linear-gradient(left, #7ed56f, #28b485);
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
     color: transparent; }
   .feature-box:hover {
@@ -744,9 +744,9 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: -webkit-radial-gradient(#7fd570, #28b485);
-  background-image: -o-radial-gradient(#7fd570, #28b485);
-  background-image: radial-gradient(#7fd570, #28b485);
+  background-image: -webkit-radial-gradient(#7ed56f, #28b485);
+  background-image: -o-radial-gradient(#7ed56f, #28b485);
+  background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 1000;
   -webkit-transition: -webkit-transform 0.9s cubic-bezier(0.86, 0, 0.07, 1);
   transition: -webkit-transform 0.9s cubic-bezier(0.86, 0, 0.07, 1);
@@ -918,10 +918,10 @@ body {
 
 .header {
   height: 95vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(127, 213, 112, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../img/giewont.jpg);
-  background-image: -webkit-linear-gradient(left top, rgba(127, 213, 112, 0.8), rgba(40, 180, 133, 0.8)), url(../img/giewont.jpg);
-  background-image: -o-linear-gradient(left top, rgba(127, 213, 112, 0.8), rgba(40, 180, 133, 0.8)), url(../img/giewont.jpg);
-  background-image: linear-gradient(to right bottom, rgba(127, 213, 112, 0.8), rgba(40, 180, 133, 0.8)), url(../img/giewont.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../img/giewont.jpg);
+  background-image: -webkit-linear-gradient(left top, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/giewont.jpg);
+  background-image: -o-linear-gradient(left top, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/giewont.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/giewont.jpg);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -992,10 +992,10 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(127, 213, 112, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../img/nat-4.jpg);
-  background-image: -webkit-linear-gradient(left top, rgba(127, 213, 112, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
-  background-image: -o-linear-gradient(left top, rgba(127, 213, 112, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
-  background-image: linear-gradient(to right bottom, rgba(127, 213, 112, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../img/nat-4.jpg);
+  background-image: -webkit-linear-gradient(left top, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: -o-linear-gradient(left top, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   -webkit-transform: skewY(-7deg);
   -ms-transform: skewY(-7deg);
@@ -1017,10 +1017,10 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#7fd570), to(#28b485));
-  background-image: -webkit-linear-gradient(left top, #7fd570, #28b485);
-  background-image: -o-linear-gradient(left top, #7fd570, #28b485);
-  background-image: linear-gradient(to right bottom, #7fd570, #28b485); }
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
+  background-image: -webkit-linear-gradient(left top, #7ed56f, #28b485);
+  background-image: -o-linear-gradient(left top, #7ed56f, #28b485);
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
 
 .book {
   background-image: -webkit-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0) 50%), url(../img/nat-10.jpg);
