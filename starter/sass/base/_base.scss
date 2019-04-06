@@ -6,8 +6,28 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; // 1 rem == 10px
     box-sizing: inherit;
+
+    // The order is from the lardest to the smallest.
+    // 1 rem = 10px is default
+
+    @include respond(tab-land) { // width < 1200 | 72em
+        font-size: 56.25%; //1 rem = 9px => 9/16
+    }
+
+    @include respond(tab-port) { // width < 900 | 56.25em
+        font-size: 50%; // 1 rem 8 px => 8/16
+    }
+
+    @include respond(phone) { // width 600 | 37,5em
+        font-size: 37.5%; // 1 rem 6 px => 6/16
+    }
+
+    @include respond(big-desktop) { // 1800+ | 112,5em
+        font-size: 75%; // 1 rem 12px => 12/16
+    }
+
 }
 
 body {
