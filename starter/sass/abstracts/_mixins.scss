@@ -43,7 +43,7 @@ $reakpoint argument choices:
     @else if $breakpoint == tab-land {
         @media (max-width: 75em) { @content; } //1200px  1200px/16px
     }
-    @else if if $breakpoint == big-desktop {
+    @else if $breakpoint == big-desktop {
         @media (min-width: 112.5em) { @content; } //1800px 1800px/16px
     }
 }
