@@ -36,11 +36,14 @@ $reakpoint argument choices:
     // "@media screen and (...)" if you don't want to print with the same resolution as displayed
     @if $breakpoint == phone {
         @media (max-width: 37.5em) { @content; } //600px 600px/16px
-    } @else if $breakpoint == tab-port {
+    }
+    @else if $breakpoint == tab-port {
         @media (max-width: 56.25em) { @content; } //900px 900px/16px
-    } @else if $breakpoint == tab-land {
+    }
+    @else if $breakpoint == tab-land {
         @media (max-width: 75em) { @content; } //1200px  1200px/16px
-    } @else if $breakpoint == big-desktop {
+    }
+    @else if if $breakpoint == big-desktop {
         @media (min-width: 112.5em) { @content; } //1800px 1800px/16px
     }
 }
