@@ -12,7 +12,7 @@ html {
     // The order is from the lardest to the smallest.
     // 1 rem = 10px is default
 
-    @include respond(tab-land) { // width < 1200 | 72em
+    @include respond(tab-land) { // width < 1200 | 75em
         font-size: 56.25%; //1 rem = 9px => 9/16
     }
 
@@ -20,11 +20,11 @@ html {
         font-size: 50%; // 1 rem 8 px => 8/16
     }
 
-    @include respond(phone) { // width 600 | 37,5em
+    @include respond(phone) { // width 600 | 37.5em
         font-size: 37.5%; // 1 rem 6 px => 6/16
     }
 
-    @include respond(big-desktop) { // 1800+ | 112,5em
+    @include respond(big-desktop) { // 1800+ | 112.5em
         font-size: 75%; // 1 rem 12px => 12/16
     }
 
