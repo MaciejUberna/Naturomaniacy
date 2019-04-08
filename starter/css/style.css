@@ -1224,25 +1224,25 @@ body {
       padding: 10rem 0; } }
 
 .book {
-  background-image: -webkit-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0) 50%), url(../img/nat-10.jpg);
-  background-image: -o-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0) 50%), url(../img/nat-10.jpg);
-  background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0) 50%), url(../img/nat-10.jpg);
+  background-image: -webkit-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: -o-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.4);
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.4); }
   @media (max-width: 75em) {
     .book {
-      background-image: -webkit-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, rgba(0, 0, 0, 0) 65%), url(../img/nat-10.jpg);
-      background-image: -o-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, rgba(0, 0, 0, 0) 65%), url(../img/nat-10.jpg);
-      background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, rgba(0, 0, 0, 0) 65%), url(../img/nat-10.jpg);
+      background-image: -webkit-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+      background-image: -o-linear-gradient(340deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+      background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
       background-size: cover; } }
   @media (max-width: 56.25em) {
     .book {
-      background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(255, 255, 255, 0.9)), to(rgba(0, 0, 0, 0))), url(../img/nat-10.jpg);
-      background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, rgba(0, 0, 0, 0) 100%), url(../img/nat-10.jpg);
-      background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, rgba(0, 0, 0, 0) 100%), url(../img/nat-10.jpg);
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, rgba(0, 0, 0, 0) 100%), url(../img/nat-10.jpg); } }
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url(../img/nat-10.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg);
+      background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg);
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }

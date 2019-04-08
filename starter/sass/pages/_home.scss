@@ -63,7 +63,7 @@
     background-image: linear-gradient(110deg, 
         rgba($color-white,.9) 0%,
         rgba($color-white,.9) 50%,
-        rgba(0,0,0,0) 50%) , 
+       transparent 50%) , 
         url(../img/nat-10.jpg);
     background-size: 100%;
     border-radius: 3px;
@@ -73,7 +73,7 @@
         background-image: linear-gradient(110deg, 
         rgba($color-white,.9) 0%,
         rgba($color-white,.9) 65%,
-        rgba(0,0,0,0) 65%) , 
+        transparent 65%) , 
         url(../img/nat-10.jpg);
 
         background-size: cover;
@@ -82,8 +82,7 @@
     @include respond(tab-port) {
         background-image: linear-gradient(to right,
         rgba($color-white,.9) 0%,
-        rgba($color-white,.9) 100%,
-        rgba(0,0,0,0) 100%) , 
+        rgba($color-white,.9) 100%) , 
         url(../img/nat-10.jpg);       
     }
 
