@@ -180,43 +180,16 @@
         height: auto;
         // 
         &__side {
-            color: $color-black;
-            font-size: 2rem;
-            height: auto;
-            transition: all 1s ease;
             position: relative;
-            top:0;
-            left:0;
-            width: 100%;
-            backface-visibility: hidden;
-            border-radius: 3px;
-            // overflow:hidden so the border radius is visible
-            overflow: hidden;
-            box-shadow: $shadow-medium;
-
-            &--front {
-                background-color: $color-white;
-            }
+            height: auto;
 
             &--back {
-                transform: rotateY(180deg);
-
-                &-1 {
-                    background-image: linear-gradient(to right bottom,$color-tertiary-light,$color-tertiary-dark);
-                }
-
-                &-2 {
-                    background-image: linear-gradient(to right bottom,$color-primary-light,$color-primary-dark);
-                }
-
-                &-3 {
-                    background-image: linear-gradient(to right bottom,$color-secondary-light,$color-secondary-dark);
-                }
+                transform: rotateY(0deg);
             }
         }
 
         &:hover &__side--front{
-            transform: rotateY(-180deg);
+            transform: rotateY(0);
         }
 
         &:hover &__side--back{
