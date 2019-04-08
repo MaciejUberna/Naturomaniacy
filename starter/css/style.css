@@ -372,24 +372,17 @@ body {
         -webkit-transform: rotateY(0);
         transform: rotateY(0); }
       .card__cta {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        width: 90%;
-        text-align: center; }
+        position: relative;
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+        transform: translate(0);
+        width: 100%; }
       .card__price-box {
-        text-align: center;
-        margin-bottom: 8rem;
-        color: #fff; }
-      .card__price-only {
-        font-size: 1.4rem;
-        text-transform: uppercase; }
+        margin-bottom: 5rem; }
       .card__price-value {
-        font-size: 4rem;
-        font-weight: 300; } }
+        font-size: 4rem; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;

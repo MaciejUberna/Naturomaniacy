@@ -198,26 +198,19 @@
 
         //Back side styling
         &__cta {
-            @include centerObject;
-            width: 90%;
-            text-align: center;
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: translate(0);
+            width: 100%
         }
 
         &__price-box {
-            text-align: center;
-            margin-bottom: 8rem;
-            color: $color-white;
-        }
-
-        &__price-only {
-            font-size: 1.4rem;
-            text-transform: uppercase;
+            margin-bottom: 5rem;
         }
 
         &__price-value {
             font-size: 4rem;
-            font-weight: 300;
-
         }
     }
 }
