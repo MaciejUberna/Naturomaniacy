@@ -185,6 +185,7 @@
 
             &--back {
                 transform: rotateY(0deg);
+                clip-path: polygon(0 15%, 100% 0, 100% 100%,0 100%)
             }
         }
 
@@ -202,11 +203,12 @@
             top: 0;
             left: 0;
             transform: translate(0);
-            width: 100%
+            width: 100%;
+            padding: 4rem;
         }
 
         &__price-box {
-            margin-bottom: 5rem;
+            margin-bottom: 3rem;
         }
 
         &__price-value {
