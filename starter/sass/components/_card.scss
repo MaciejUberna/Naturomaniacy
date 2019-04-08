@@ -178,10 +178,14 @@
 
     @include respond(tab-port) {
         height: auto;
+        border-radius: 3px;
+        background-color: $color-white;
+        box-shadow: $shadow-medium;
         // 
         &__side {
             position: relative;
             height: auto;
+            box-shadow: none;
 
             &--back {
                 transform: rotateY(0deg);
@@ -193,8 +197,8 @@
             transform: rotateY(0);
         }
 
-        &:hover &__side--back{
-            transform: rotateY(0);
+        &_details {
+            padding: 1rem 3rem;
         }
 
         //Back side styling
@@ -204,7 +208,7 @@
             left: 0;
             transform: translate(0);
             width: 100%;
-            padding: 4rem;
+            padding: 7rem 4rem 4rem 4rem;
         }
 
         &__price-box {

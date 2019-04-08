@@ -358,10 +358,16 @@ body {
     font-weight: 300; }
   @media (max-width: 56.25em) {
     .card {
-      height: auto; }
+      height: auto;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.4);
+      box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.4); }
       .card__side {
         position: relative;
-        height: auto; }
+        height: auto;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
         .card__side--back {
           -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
@@ -370,9 +376,8 @@ body {
       .card:hover .card__side--front {
         -webkit-transform: rotateY(0);
         transform: rotateY(0); }
-      .card:hover .card__side--back {
-        -webkit-transform: rotateY(0);
-        transform: rotateY(0); }
+      .card_details {
+        padding: 1rem 3rem; }
       .card__cta {
         position: relative;
         top: 0;
@@ -381,7 +386,7 @@ body {
         -ms-transform: translate(0);
         transform: translate(0);
         width: 100%;
-        padding: 4rem; }
+        padding: 7rem 4rem 4rem 4rem; }
       .card__price-box {
         margin-bottom: 3rem; }
       .card__price-value {
