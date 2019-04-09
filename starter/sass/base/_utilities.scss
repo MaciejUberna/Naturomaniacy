@@ -16,3 +16,19 @@
 
 .u-margin-top-big { margin-top: 8rem !important; }
 .u-margin-top-huge { margin-top: 10rem !important; }
+
+.u-margin-top-small{ 
+    margin-top: 2 !important;
+
+    @include respond(tab-land){
+        margin-top: 3 !important;
+    }
+
+    @include respond(tab-port) {
+        margin-top: 4rem !important;
+    }
+
+    @include respond(desktop-big) {
+        margin-top: 0 !important;
+    }
+}
