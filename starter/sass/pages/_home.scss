@@ -60,14 +60,20 @@
 }
 
 .book {
+    display: inline-flexbox;
     background-image: linear-gradient(110deg, 
         rgba($color-white,.9) 0%,
         rgba($color-white,.9) 50%,
        transparent 50%) , 
         url(../img/nat-10.jpg);
+    height: 90vh;
     background-size: 100%;
     border-radius: 3px;
-    box-shadow: $shadow-small; 
+    box-shadow: $shadow-small;
+
+    @include respond(big-desktop){
+        height: 100vh;
+    }
 
     @include respond(tab-land){
         background-image: linear-gradient(110deg, 
@@ -75,7 +81,7 @@
         rgba($color-white,.9) 65%,
         transparent 65%) , 
         url(../img/nat-10.jpg);
-
+        height: 82vh;
         background-size: cover;
     }
 
@@ -83,7 +89,9 @@
         background-image: linear-gradient(to right,
         rgba($color-white,.9) 0%,
         rgba($color-white,.9) 100%) , 
-        url(../img/nat-10.jpg);       
+        url(../img/nat-10.jpg); 
+        
+        height: 72vh;
     }
 
     &__form {
