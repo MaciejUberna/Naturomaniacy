@@ -55,6 +55,11 @@ position: relative;
         float: left;
         width: 40%;
         display: inline-flexbox;
+
+        @include respond(tab-port) {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
     }
 
     &__radio-input {
