@@ -855,7 +855,7 @@ body {
     vertical-align: middle;
     padding: 3rem 5rem; }
   .popupCards__img {
-    display: block;
+    display: inline-block;
     width: 100%; }
   .popupCards__text {
     font-size: 1.4rem;

@@ -139,7 +139,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-tours" id="section-tours">
+        <section class="section-tours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Najpopularniejsze wycieczki
@@ -148,7 +148,7 @@
 
             <div class="row">
                 <div class="col-1-of-3">
-                    <div class="card">
+                    <div class="card" id="section-tours">
                         <div class="card__side card__side--front">
                             <div class="card__picture card__picture--1">
                                 &nbsp;
@@ -391,7 +391,15 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-pl-green-2x.png" class="footer__logo" alt="Full logo">
+
+            <picture class="footer__logo">
+
+                <source srcset="img/logo-pl-green-1x.png 1x, img/logo-pl-green-2x.png 2x" media="(max-width: 37.5em)">
+                <img srcset="img/logo-pl-green-1x.png 1x, img/logo-pl-green-2x.png 2x" class="footer__logo" alt="Full logo">
+
+            </picture>
+
+            
         </div>
         <div class="row">
             <div class="col-1-of-2">

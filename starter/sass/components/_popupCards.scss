@@ -15,6 +15,7 @@
     &__content {
         @include centerObject;
         width: 75%;
+
         background-color: $color-white;
         box-shadow: $shadow-small;
         border-radius: 3px;
@@ -73,7 +74,7 @@
     }
 
     &__img {
-        display: block;
+        display: inline-block;
         width:100%;
     }
  
