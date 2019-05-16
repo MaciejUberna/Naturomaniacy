@@ -12,9 +12,14 @@
 
     transition: all .5s;
 
+    @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba($color-grey-darkest,.3);
+    }
+
     &__content {
         @include centerObject;
-        width: 75%;
 
         background-color: $color-white;
         box-shadow: $shadow-small;
@@ -29,6 +34,22 @@
 
         //.2s -> delay of animation transision
         transition: all .4s .2s;
+
+        @include respond(phone) {
+            height: 40%;
+        }
+  
+        @include respond(tab-land){
+            height: 70%;
+        }
+
+        @include respond(tab-port){
+            height: 62%;
+        }
+
+        @include respond(big-desktop){
+            height: 75%;
+        }
     }
 
     &:target {
