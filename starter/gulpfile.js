@@ -32,7 +32,7 @@ function style() {
           //.pipe(chmod(0o755))
 
           // Use sass with the files found, and log any errors
-          .pipe( sass({errLogToConsole: true }) )
+          .pipe( sass({outputStyle: 'compressed', errLogToConsole: true }) )
           .on("error", sass.logError)
           //.pipe(debug())
 
