@@ -67,7 +67,7 @@
             // Unsplash.com
             background-image: linear-gradient(to right bottom,$color-tertiary-light,$color-tertiary-dark),
             url(../img/nat-5.jpg);
-            //This is more compatybile wie older browsers
+            //This is more compatybile with older browsers
             //background-image: linear-gradient(to right bottom,rgba($color-tertiary-light,.4),rgba($color-tertiary-dark,.4)),
             //url(../img/nat-5.jpg);
         }
@@ -77,7 +77,7 @@
             // Unsplash.com
             background-image: linear-gradient(to right bottom,$color-primary-light,$color-primary-dark),
             url(../img/nat-6.jpg);
-            //This is more compatybile wie older browsers
+            //This is more compatybile with older browsers
             //background-image: linear-gradient(to right bottom,rgba($color-tertiary-light,.4),rgba($color-tertiary-dark,.4)),
             //url(../img/nat-6.jpg);
         }
@@ -87,7 +87,7 @@
             // Unsplash.com
             background-image: linear-gradient(to right bottom,$color-secondary-light,$color-secondary-dark),
             url(../img/nat-7.jpg);
-            //This is more compatybile wie older browsers
+            //This is more compatybile with older browsers
             //background-image: linear-gradient(to right bottom,rgba($color-tertiary-light,.4),rgba($color-tertiary-dark,.4)),
             //url(../img/nat-7.jpg);
         }
@@ -176,7 +176,10 @@
 
     }
 
-    @include respond(tab-port) {
+    //@include respond(tab-port) {
+
+    @media only screen and (max-width: 56.25em),
+        only screen and (hover:none) {
         height: auto;
         border-radius: 3px;
         background-color: $color-white;
