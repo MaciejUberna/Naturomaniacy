@@ -26,7 +26,7 @@ function style() {
   // (If you want to use scss files, simply look for *.scss files instead)
   return (
       gulp
-          .src("sass/main.scss")
+          .src(['css/icon-font.css','sass/main.scss'])
           .pipe(wait(200))
           //.pipe(combine())
           //.pipe(chmod(0o755))
