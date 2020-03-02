@@ -16,7 +16,7 @@ Explore power of css, sass and gulp
 In order to deploy this webpage, web server is needed.
 Firstly install node.js on your machine.
 Then install live rerver: "npm install -g live-server"
-Then run live-server command in /Natuours/starter folder
+Then run live-server command in "/Natuours/starter" folder.
 
 ## How to contribute
 
