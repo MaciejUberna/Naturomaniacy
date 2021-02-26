@@ -2,10 +2,7 @@
 
 var gulp = require('gulp'),
 sass = require('gulp-sass'),
-combine = require('gulp-scss-combine'),
 concat = require('gulp-concat'),
-chmod = require('gulp-chmod'),
-debug = require('gulp-debug'),
 wait = require('gulp-wait'),
 autoprefixer = require('gulp-autoprefixer');
 
